@@ -18,9 +18,9 @@ class Email{
 
 
 var imap = new Imap({
- user: 'contacto@fixblueperu.com',
- password: '@Fixbluecorreo18',
- host: 'imap.secureserver.net',
+ user: '--confidential-',
+ password: '-confidential--',
+ host: '-confidential-',
  port: 993,
  tls: true
 });
@@ -224,7 +224,7 @@ imap.once('ready', function () {
    });
    console.log('4');
    msg.header('Message-ID', inf.messageId);
-   msg.header('To','fixblueperu@gmail.com');
+   msg.header('To','--confidential--');
    msg.header('Subject', 'FIXBLUE ATENCIÓN AL CLIENTE');
    msg.body.push(htmlEntity);
    msg.body.push(plainEntity);

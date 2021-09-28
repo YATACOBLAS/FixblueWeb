@@ -7,20 +7,20 @@ const email = require('../servidor/email');
 const oEmail=new email({
     "service":"gmail",
      "auth":{
-     "user":"fixblueperu@gmail.com",
-    "pass":"fixblue_social2018"
+     "user":"--confidential--",
+    "pass":"--confidential--"
      }
     });
     */
 
 const oEmail=new email({
-        "host":"smtpout.secureserver.net",
+        "host":"--confidential--",
         "port":"25",
          "secure":false,
          "auth":{
         "type":"login",
-        "user":"contacto@fixblueperu.com",
-        "pass":"@Fixbluecorreo18"
+        "user":"--confidential--",
+        "pass":"--confidential--"
          }
         });
 
@@ -43,8 +43,8 @@ router.get('/services',(req,res)=>{
    router.post('/api/contacto',function(req,res,next){
     console.log('api activadoss')
  let email={
-     from:"contacto@fixblueperu.com",
-     to:"fixblueperu@gmail.com",
+     from:"--confidential--",
+     to:"--confidential--",
      subject:"FIXBLUE ATENCIÓN AL CLIENTE",
      html:`<div><p>Correo: ${req.body.c}</p>
         <p>Cargo: ${req.body.car}</p>
