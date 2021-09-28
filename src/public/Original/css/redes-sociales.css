@@ -1,0 +1,53 @@
+
+
+.fab{
+    width: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.social{
+    position: fixed;
+    left: -40px;
+    top: 250px;
+}
+.social ul{
+    list-style: none;
+
+}
+.social a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    z-index: 0;
+    transition: 0.1s ease;
+}
+.fa-facebook-f{
+    background: #3b5998;
+}
+.fa-twitter{
+    background: #00abf0;
+}
+
+.fa-facebook-messenger{
+    background: #0084ff;
+}
+.fa-whatsapp{
+    background: #25d366;
+}
+.insta-redes{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.social a:hover{
+    padding: 10px 40px;
+}
+
+
+
+@media only screen and (max-width: 760px){
+    .social{
+        position: fixed;
+        left: -60px;
+        top: 250px;
+    }
+}

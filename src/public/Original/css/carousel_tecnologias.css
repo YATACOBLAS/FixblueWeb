@@ -1,0 +1,200 @@
+.fondo_carousel{
+    width: 100%;
+    height: 300px;
+    }
+    .fondo_carousel_mobile{
+        width: 100%;
+    height: 200px; 
+    }
+        
+.content-all{
+    width: 150px;
+    margin: auto;
+    perspective: 800px;
+    position: relative;
+    margin-top: 50px;
+}
+.content-all-mobile{
+   
+    width: 100px;
+    margin: auto;
+    perspective: 800px;
+    position: relative;
+    margin-top: 50px;
+    
+}
+.content-carrousel{
+width: 100%;
+position: absolute;
+animation: rotar 10s infinite linear;
+transform-style: preserve-3d;
+}
+.content-carrousel-mobile{
+width: 100%;
+position: absolute;
+animation: rotar 10s infinite linear;
+transform-style: preserve-3d;
+}
+
+
+/*.content-carrousel:hover{
+animation-play-state: paused;
+cursor: pointer;
+}
+.content-carrousel-mobile:hover{
+animation-play-state: paused;
+cursor: pointer;
+}
+*/
+
+.content-carrousel figure{
+width: 100%;
+height: 120px;
+overflow: hidden;
+position: absolute;
+box-shadow: 0px 0px 20px 0px black;
+transition: all 300ms;
+text-align: center;
+
+}
+.content-carrousel-mobile figure{
+width: 100%;
+height: 120px;
+overflow: hidden;
+position: absolute;
+box-shadow: 0px 0px 20px 0px black;
+transition: all 300ms;
+text-align: center;
+
+}
+/*
+.content-carrousel figure:hover{
+box-shadow: 0px 0px 0px 0px black;
+transition: all 300ms;
+}
+.content-carrousel-mobile figure:hover{
+box-shadow: 0px 0px 0px 0px black;
+transition: all 300ms;
+}*/
+.content-carrousel figure:nth-child(1){transform: rotateY(0deg) translateZ(290px);}
+.content-carrousel figure:nth-child(2){transform: rotateY(33deg) translateZ(290px);}
+.content-carrousel figure:nth-child(3){transform: rotateY(66deg) translateZ(290px);}
+.content-carrousel figure:nth-child(4){transform: rotateY(99deg) translateZ(290px);}
+.content-carrousel figure:nth-child(5){transform: rotateY(132deg) translateZ(290px);}
+.content-carrousel figure:nth-child(6){transform: rotateY(165deg) translateZ(290px);}
+.content-carrousel figure:nth-child(7){transform: rotateY(198deg) translateZ(290px);}
+.content-carrousel figure:nth-child(8){transform: rotateY(231deg) translateZ(290px);}
+.content-carrousel figure:nth-child(9){transform: rotateY(264deg) translateZ(290px);}
+.content-carrousel figure:nth-child(10){transform: rotateY(297deg) translateZ(290px);}
+.content-carrousel figure:nth-child(11){transform: rotateY(330deg) translateZ(290px);}
+
+.content-carrousel-mobile figure:nth-child(1){transform: rotateY(0deg) translateZ(210px);}
+.content-carrousel-mobile figure:nth-child(2){transform: rotateY(33deg) translateZ(210px);}
+.content-carrousel-mobile figure:nth-child(3){transform: rotateY(66deg) translateZ(210px);}
+.content-carrousel-mobile figure:nth-child(4){transform: rotateY(99deg) translateZ(210px);}
+.content-carrousel-mobile figure:nth-child(5){transform: rotateY(132deg) translateZ(210px);}
+.content-carrousel-mobile figure:nth-child(6){transform: rotateY(165deg) translateZ(210px);}
+.content-carrousel-mobile figure:nth-child(7){transform: rotateY(198deg) translateZ(210px);}
+.content-carrousel-mobile figure:nth-child(8){transform: rotateY(231deg) translateZ(210px);}
+.content-carrousel-mobile figure:nth-child(9){transform: rotateY(264deg) translateZ(210px);}
+.content-carrousel-mobile figure:nth-child(10){transform: rotateY(297deg) translateZ(210px);}
+.content-carrousel-mobile figure:nth-child(11){transform: rotateY(330deg) translateZ(210px );}
+
+
+.content-carrousel img{
+width: 80%;
+
+transition: all 300ms;
+
+}
+.content-carrousel-mobile img{
+width: 90%;
+
+transition: all 300ms;
+
+}
+
+/*tamaño y entre espacios de los logotipos pc*/
+.content-carrousel figure .tec1{
+margin-top: 28px;
+}
+.content-carrousel figure .tec2{
+margin-top: 25px;
+}
+.content-carrousel figure .tec3{
+margin-top: 48px;
+}
+.content-carrousel figure .tec4 {
+margin-top: 20px;
+}
+.content-carrousel figure .tec5 {
+margin-top: 15px;
+}
+.content-carrousel figure .tec7 {
+margin-top: 10px;
+height: 80%;
+width: 90px;
+}
+.content-carrousel figure .tec8{
+width: 80px;
+height: 110px;
+}
+.content-carrousel figure .tec9{
+margin-top: 10px;
+}
+.content-carrousel figure .tec11{
+margin-top: 40px;
+}
+/*tamaño y entre espacios de los mobiles */
+.content-carrousel-mobile figure .tec1{
+margin-top: 30px;
+}
+.content-carrousel-mobile figure .tec2{
+margin-top: 30px;
+}
+.content-carrousel-mobile figure .tec3{
+margin-top: 55px;
+}
+.content-carrousel-mobile figure .tec4 {
+margin-top: 35px;
+}
+.content-carrousel-mobile figure .tec5 {
+margin-top: 25px;
+}.content-carrousel-mobile figure .tec6 {
+margin-top: 15px;
+}
+.content-carrousel-mobile figure .tec7 {
+margin-top: 18px;
+
+width: 80px;
+}
+.content-carrousel-mobile figure .tec8{
+margin-top: 10px;
+width: 60px;
+height: 80px;
+}
+.content-carrousel-mobile figure .tec9{
+margin-top: 20px;
+}
+.content-carrousel-mobile figure .tec10{
+margin-top: 10px;
+}
+.content-carrousel-mobile figure .tec11{
+margin-top: 40px;
+}
+
+/*
+.content-carrousel img:hover{
+transform: scale(1.2);
+transition: all 300ms;
+}*/
+
+
+@keyframes rotar{
+from{
+    transform: rotateY(0deg);
+}to{
+    transform: rotateY(360deg);
+}
+}
+

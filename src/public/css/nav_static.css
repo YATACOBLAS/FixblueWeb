@@ -1,0 +1,17 @@
+  /*Diseño del nav*/
+  .navbar {
+    background-color: #0070C0; }
+    @media only screen and (max-width: 768px) {
+      .navbar {
+        background-color:#0070C0; } }
+  
+  .page-footer, .top-nav-collapse {
+    background-color: #0070C0; }
+.navbar {
+  background-color: #0070C0 !important; }
+
+.navbar:not(.top-nav-collapse) {
+  background: #0070C0 !important; }
+  @media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+      background: #0070C0 !important; } }

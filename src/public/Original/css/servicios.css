@@ -1,0 +1,116 @@
+
+   .contenedor-servicios button{
+     display: none;
+
+   }
+   .contenedor-redes  button{
+    display: none;
+
+  } 
+   .contenedor-software button{
+    display: none;
+
+  }
+    @media (min-width: 760px) {
+        .contenedor-servicios{
+            height:650px;
+        }
+
+    }
+
+    @media only screen and (max-width: 760px) {
+       .detalle-escritorio-mantenimiento{
+         display:none;
+        }
+        .detalle-escritorio-redes{
+        display:none; 
+        }
+        .detalle-escritorio-software{
+        display: none;
+        }
+      }
+      
+    @media only screen and (min-width: 760px) {
+        .detalle-mantenimiento{
+          display:none;
+         }
+         .detalle-redes{
+         display:none; 
+         }
+         .detalle-software{
+         display: none;
+         }
+       }
+    .contenedor-servicios{
+    
+        background-image: url('img/placa-base-microprocesador.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      padding-top: 60px;
+       
+    }
+   
+    .contenedor-redes{
+        background-image: url('img/contenedor-redes.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+    }
+    .contenedor-software{
+        background-image: url('img/contenedor-codigo.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+    }
+    .appWhatsapp{
+position: fixed;
+right: 26px;
+bottom: 100px;
+width: 60px;
+z-index: 1000;
+
+    }
+    .appWhatsapp img{
+width: 100%;
+height: auto;
+
+    }
+    .btn-contactos {
+        border: 2px solid white;
+        border-radius: 30px;
+
+    }
+    .servicios-soporte-tecnico{
+        background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-full-technology-sense-3d-computer-motherboard-background-fiction3d-image_66145.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .servicios-redes-informaticas{
+        background-image: url('img/contenedor-redes.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }  
+    .servicios-desarrollo-software{
+        background-image: url('img/contenedor-codigo.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .top-nav-collapse {
+        background-color: #0070C0 !important;
+    }
+
+    .navbar:not(.top-nav-collapse) {
+        background: transparent !important;
+    }
+
+    @media (max-width: 991px) {
+        .navbar:not(.top-nav-collapse) {
+            background: #0070C0 !important;
+        }
+    }

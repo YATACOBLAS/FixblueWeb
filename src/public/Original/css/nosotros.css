@@ -1,0 +1,67 @@
+    html,
+    body,
+    header,
+    .view{
+        height: 100%;
+    }
+
+    .view{
+        background-image: url('img/NOSOTROS-banner.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+  
+
+    @media only screen and (max-width: 760px){
+        .contenedor-vision{
+       background-image: url('img/fondo-vision.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center; 
+        }
+        .contenedor-vision{
+            color: aliceblue;
+            font-weight: bold;
+        }
+            .imagen-vision{
+                display: none;
+            }
+    }
+
+    .contenedor-vision{
+        padding-top: 180px;
+        padding-bottom: 180px;
+         }
+
+         .contenedor-mision{
+       
+        background-image: url('img/NOSOTROS-Mision.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+   
+    }
+    .contenedor-mision{
+        padding-top: 180px;
+    padding-bottom: 180px;
+    }
+  body {
+        overflow-x: hidden;
+    }
+    .top-nav-collapse {
+        background-color: #0070C0 !important;
+    }
+
+    .navbar:not(.top-nav-collapse) {
+        background: transparent !important;
+    }
+
+    @media (max-width: 991px) {
+        .navbar:not(.top-nav-collapse) {
+            background: #0070C0 !important;
+        }
+    }
+    
+/*Eliminar imagen de acuerod a la resolucion de pantalla*/
+  

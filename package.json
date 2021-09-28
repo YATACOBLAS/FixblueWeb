@@ -1,0 +1,24 @@
+{
+  "name": "WebFixblue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webFixblue.js",
+  "scripts": {
+     "dev": "nodemon src/webFixblue.js",
+"start":"nodemon src/webFixblue.js"},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "imap": "^0.8.19",
+    "mimemessage": "^1.0.5",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

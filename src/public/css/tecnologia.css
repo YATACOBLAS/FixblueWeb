@@ -1,0 +1,65 @@
+
+
+.seccion-logotipos-tecnologia {
+    height: 100%;
+    /*Inicio  de dise├▒o del la seccion de servicios home */ }
+.seccion-tecnologia{
+
+width: 100%;
+}
+
+    .carousel-cubo {
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0; }
+      
+      .swiper-container {
+        width: 92%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: white; }
+      
+      .swiper-slide {
+        background-color: #C1CAD1;
+        background-position: center;
+        background-size: cover;
+        width: 150px;
+        height: 150px; }
+
+
+        .seccion-tecnologia div div div {
+          align-items: center;
+        }
+        div img{    
+        width:150px;
+        }
+         #node {
+          padding-top: 30px;
+        }
+          #oracle {
+          padding-top: 70px;
+        }
+        #window {
+          padding-top: 40px;
+        }
+          #sql_lite {
+          padding-top: 40px;
+        }
+        #centos {
+          padding-top: 50px;
+        }
+        
+        #c{
+
+     height: 130px;
+width:auto;
+        }
+   
+        
+        .page-footer{
+
+          background-color: #0070C0;
+        }
+  

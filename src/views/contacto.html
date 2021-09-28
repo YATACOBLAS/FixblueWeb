@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FIXBLUE</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+      <!-- carousel -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <!-- Un tipo de letra  -->
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto&display=swap" rel="stylesheet">
+
+    <link href="css/contacto.css" rel="stylesheet">
+   
+      <link rel="stylesheet" href="/css/redes-sociales.css">
+      <link rel="stylesheet" href="/css/tecnologia.css">
+      <link rel="stylesheet" href="/css/nav_static.css">
+
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js" ></script>
+    </head>
+<body>
+    <header>
+        <!--Barra de navegacion -->
+        <%- include ('partials/nav.html'); -%>
+    </header> 
+    <main class="mt-5 pt-5 mb-5 pb-5"> 
+    
+ <!-- Enviar Correo -->
+  <section id="contact" class="">
+    <!-- Heading -->
+    <h2 class="mb-3 mb-sm-3 mb-md-5 mb-lg-5 mb-xl-5 pt-xl-5 pt-lg-5 pt-md-5 pt-sm-3 pt-0 font-weight-bold text-center">Escríbenos | Estamos listos para atenderte </h2>
+    <div class="container ">
+        <div class="row "> 
+            <div class="col-lg-5 col-md-12 mb-3">
+            <!-- Form contact -->
+                <div class="md-form form-sm"> <i class="fas fa-user prefix"></i>
+                <input type="text" id=" "  name ="nombre" class="form-control form-control-sm" value="">
+                <label for="form3" >Tu Nombre</label>
+                </div>
+                <div class="md-form form-sm"> <i class="fas fa-envelope prefix"></i>
+                <input type="email" id="idCorreo"  placeholder="name@example.com" name="email" class="form-control form-control-sm" value="">
+                <label for="form2">Tu Email</label>
+                </div>
+                <div class="md-form form-sm"> <i class="fas fa-tag prefix"></i>
+                <input type="text" id="idCargo" name="cargo" class="form-control form-control-sm">
+                <label for="form34">Cargo</label>
+                </div>
+                <div class="md-form form-sm"> <i class="fas fa-pencil-alt prefix"></i>
+                <textarea type="text" id="idMensaje"  name ="mensaje" class="md-textarea form-control form-control-sm" rows="4" value=""></textarea>
+                <label for="form8">Tu Mensaje</label>
+                </div>
+                <div class="text-center mt-4">
+                <button class="btn btn-primary"  id="sendEmail">Enviar <i class="far fa-paper-planeml-1"></i></button>
+                </div>         
+            <!-- Form contact -->
+            </div>
+            <div class="col-lg-7 col-md-12  ">
+            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">           
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.336762689591!2d-76.1444718506939!3d-13.391461990535154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x911017429f83eb97%3A0xb87bf50b90ebacab!2sFIXBLUE!5e0!3m2!1ses-419!2spe!4v1577371578804!5m2!1ses-419!2spe"
+                style="border:0;" allowfullscreen="">
+            </iframe>
+            </div>
+        </div>
+        <!--Grid column-->
+
+        </div>
+    </div>
+                <!--Grid row-->
+                <!--Grid row-->
+</section>
+
+</main>
+<%- include ('partials/foot.html'); -%>
